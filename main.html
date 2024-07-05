@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PROJECT-1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+    <style>
+      body{
+        display: flex;
+        background-color: hsl(30, 54%, 90%);
+        justify-content: center;
+        height: 2000px;
+        
+      }
+      div{
+        width: 400px;
+      }
+      .img{
+        width: 400px;
+        border-radius: 10px;
+      }
+      .container{
+        background-color: white;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+       height: fit-content;
+        
+        
+      }
+      .recipe-name{
+        margin-top: 10px;
+        font-family: Young Serif;
+        font-weight: 500;
+        font-size: 25px;
+        margin-bottom: 0;
+        position: relative;
+      }
+      .recipe-description{
+        font-size: 14px;
+        width: 400px;
+        color: rgb(122, 122, 122);
+        line-height: 2;
+      }
+      .prep-time-container{
+        background-color: hsl(330, 100%, 98%);
+        color: white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        
+      }
+      .prep-time-heading{
+         padding-left: 15px;
+         margin-bottom: 0;
+         font-family: Outfit;
+         font-weight: bold;
+         color: purple;
+         font-size: 20px;
+         padding-top: 0px;
+      }
+      .prep-time-list{
+        color: rgb(92, 90, 90);
+        font-family: Outfit;
+        line-height: 35px;
+      }
+      .prep-time-list li::marker{
+        color: purple;
+      }
+      .prep-time-list b{
+        color: black;
+      }
+      .ingredients-head,
+      .instructions-head,
+      .nutrition-head{
+        font-family: Young Serif;
+        color:hsl(14, 45%, 36%);
+        font-weight: 500;
+        font-size: 25px;
+        margin-bottom: 0;
+        
+      }
+      .ingredients-list{
+        font-family: Outfit;
+        line-height: 35px;
+        font-size: 15px;
+        margin-top: 10px;
+        color:rgb(92, 90, 90);
+        padding-left: 17px;
+      }
+      .ingredients-list li::marker{
+        color: hsl(14, 45%, 36%);
+      }
+      hr{
+        margin-bottom: 30px;
+        margin-top: 30px;
+      }
+      .instructions-list{
+        width: 390px;
+        font-size: 15px;
+        font-family: Outfit;
+        color: rgb(92, 90, 90);
+        line-height: 25px;
+        padding-left: 17px;
+      }
+      .instructions-list b{
+        color: black;
+      }
+      .instructions-list li::marker{
+        color: hsl(14, 45%, 36%);
+        font-weight: bold;
+      }
+      .instructions-list li{
+        margin-bottom: 8px;
+      }
+      .table-des{
+        font-size: 15px;
+        width: 400px;
+        color: rgb(122, 122, 122);
+        line-height: 2;
+        font-family: Outfit;
+      }
+      table{
+        width: 400px;
+        font-family: Outfit;
+        border-spacing: 20px;
+        border: solid 2px;
+        font-size: 17px;
+        border-radius: 10px;
+      }
+      table td{
+        color: rgb(92, 90, 90);
+      }
+      table th{
+        color: hsl(14, 45%, 36%);
+        font-weight: 800;
+      }
+      
+    </style>
+  </head>
+    <body>
+      <div class="container">
+        <div class="img-container">
+          <img src="images/image-omelette.jpeg" class="img">
+        </div>
+        <div class="recipe-info">
+          <p class="recipe-name">
+            Simple Omelette Recpie
+          </p>
+          <p class="recipe-description">
+            An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs
+            cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+          </p>
+        </div>
+         <div class="prep-time-container">
+          <p class="prep-time-heading">
+            Preparation time
+          </p>
+          <div class="prep-time-list">  
+            <ul>
+              <li>
+                <b>Total:</b> Approximately 10 minutes
+              </li>
+              <li>
+                <b>Preparation:</b> 5 minutes
+              </li>
+              <li>
+                <b>Cooking:</b> 5 minutes
+              </li>
+            </ul>
+           </div>
+        </div>
+        <div class="ingredients-container">
+
+
+          <p class="ingredients-head">Ingredients</p>
+          <ul class="ingredients-list">
+            <li>2-3 large eggs</li>
+            <li> Salt, to taste</li>
+            <li>Pepper, to taste</li>
+            <li>1 tablespoon of butter or oil</li>
+            <li> Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+          </ul>
+          <hr class="line-1">
+        
+        </div>
+        <div class="instructions-container">
+          <p class="instructions-head">Instructions</p>
+          <ol class="instructions-list">
+            <li>
+              <b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are 
+              well mixed. You can add a tablespoon of water or milk for a fluffier texture.
+            </li>
+            <li>
+              <b>Heat the pan:</b> Place a non-stick frying pan over medium heat and add butter or oil. 
+            </li>
+            <li>
+              <b>Cook the omelette:</b> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.
+            </li>
+            <li>
+              <b>Add fillings (optional):</b> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.
+            </li>
+            <li>
+              <b>Fold and serve:</b> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.
+            </li>
+            <li>
+             <b> Enjoy:</b> Serve hot, with additional salt and pepper if needed.
+            </li>
+          </ol>
+        </div>
+        <hr class="line-2">
+        <div class="nutrition-container">
+          <p class="nutrition-head">Nutrition</p>
+          <p class="table-des">
+            The table below shows nutritional values per serving without the additional fillings.
+          </p>
+          <div class="macro-container">
+            <table>
+              <tr>
+                <td>Calories</td>
+                <th>277kcal</th>
+              </tr>
+              <tr>
+                <td>Carbs</td>
+                <th>0g</th>
+              </tr>
+              <tr>
+                <td>Protein</td>
+                <th>20g</th>
+              </tr>
+              <tr>
+                <td>Fat</td>
+                <th>22g</th>
+              </tr>
+            </table>
+              
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
