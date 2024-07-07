@@ -1,0 +1,125 @@
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 2000px;
+}
+.navbar{
+  background-color: rgb(128, 107, 220);
+  height: 60px;
+  margin: 0;
+  display: block;
+  width: 100%;
+  
+}
+.store-header{
+  cursor: pointer;
+  margin:0;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 550;
+  padding-top: 15px;
+  
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 100px;
+  margin-top: 30px;
+  vertical-align: bottom;
+}
+.icons img{
+  width: 70px;
+}
+.icons p{
+  font-weight: 550;
+  text-align: center;
+  margin: 0;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.icons p:hover{
+  color: rgb(128, 107, 220);
+}
+.img-table-container{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(211, 211, 211);
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+.main-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+  height: 60vh;
+  padding-top: 30px;
+  cursor: pointer;
+}
+.sale-head{
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.sales-table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.sales-table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1400px
+}
+th{
+  background-color: rgb(128, 107, 220);
+  height: 50px;
+}
+.store-description{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.head-1{
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(135,135,135);
+}
+.head-2{
+  font-size: 16.5px;
+  font-weight: 700;
+  color: rgb(135,135,135);
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.head-3{
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(135,135,135);
+  font-size: 16.5px;
+  margin-top: 30px;
+}
+.store-description p{
+  color: rgb(135,135,135);
+  font-size: 11px;
+  line-height: 15px;
+}
+.store-description ul{
+  color: rgb(135,135,135);
+  font-size: 12px;
+  margin-top: 0;
+  margin-left: -29px;
+}
+.footbar{
+  color: white;
+  background-color: black;
+  text-align: center;
+  height: 50px;
+  padding-top: 28px;
+  margin-top: 25px;
+}
